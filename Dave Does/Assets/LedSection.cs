@@ -10,4 +10,6 @@ public class LedSection : MonoBehaviour
     public int Combination { get; set; }
 
     public Image[] Leds => _leds;
+
+    public AudioSource[] _audio = new AudioSource[4];
 }
